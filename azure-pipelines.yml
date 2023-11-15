@@ -61,7 +61,7 @@ stages:
       displayName: 'Deploy Huxley 2 to Azure web app service'
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'Jon Woods Azure'
+        azureSubscription: 'Pay-As-You-Go(5ce7fcf6-5959-4184-84f9-b7b2c80c3119)'
         appType: 'webAppLinux'
         WebAppName: 'QuickTrain'
         packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'

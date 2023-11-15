@@ -63,7 +63,6 @@ stages:
       inputs:
         ConnectionType: 'AzureRM'
         azureSubscription: 'Pay-As-You-Go(5ce7fcf6-5959-4184-84f9-b7b2c80c3119)'
-        appType: 'webAppLinux'
+        appType: 'webApp'
         WebAppName: 'QuickTrain'
         packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'
-        RuntimeStack: 'DOTNETCORE|6.0'

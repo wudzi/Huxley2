@@ -66,11 +66,3 @@ stages:
         WebAppName: 'QuickTrain'
         packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'
         RuntimeStack: 'DOTNETCORE|6.0'
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Jon Woods Azure'
-    appType: 'webAppLinux'
-    WebAppName: 'QuickTrain'
-    packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'
-    RuntimeStack: 'DOTNETCORE|6.0'
